@@ -16,7 +16,7 @@ function func1(){
   let start="Write a cover letter for a job description as follows at the company named";
   start=start.concat(" ",inter);
   let query=start.concat("--",description);
-  const token = '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'
+  const token = {your_api_key}
   const gpt_result=document.getElementById('cover_letter')
   showloader();
   fetch('https://api.openai.com/v1/chat/completions',{
