@@ -1,0 +1,10 @@
+{
+    "name":"Cover Letter Generator",
+    "description":"Generate Cover Letter in Seconds!",
+    "version":"1.0",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"main.html",
+        "default_icon":"icon.png"      
+    }
+}
